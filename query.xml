@@ -1,25 +1,26 @@
 <osm-script>
   <union>
+	  <!--
 	  <query type="node">
-	    <has-kv k="natural" regv="cape"/>  <!--peak-->
-	    <bbox-query s="35.00" w="-5.00" n="45.00" e="18.00"/>
+	    <has-kv k="natural" regv="cape"/>  peak
+	    <bbox-query s="SS" w="WW" n="NN" e="EE"/>
 	  </query>
-	  	  
+	-->
 	  <!--	  
 	  <query type="way">
 	    <has-kv k="pier" />
-	    <bbox-query s="35.00" w="-5.00" n="45.00" e="18.00"/>
+	    <bbox-query s="SS" w="WW" n="NN" e="EE"/>
 	  </query>-->
 	  	  
 	 <!--
 	  <query type="node">
 	    <has-kv k="man_made" regv="pier|beacon|gasometer|windmill|lighthouse" />
-	    <bbox-query s="35.00" w="-5.00" n="45.00" e="18.00"/>
+	    <bbox-query s="SS" w="WW" n="NN" e="EE"/>
 	  </query>-->
 	  
 	  <query type="node">
 	    <has-kv k="seamark:type" />
-	    <bbox-query s="35.00" w="-5.00" n="45.00" e="18.00"/>
+	    <bbox-query s="SS" w="WW" n="NN" e="EE"/>
 	  </query>
 	  
 	  <!--
@@ -29,7 +30,7 @@
 	    <has-kv k="seamark:type" modv="not" v="cable_submarine" />
 	    <has-kv k="seamark:type" modv="not" v="cable_overhead" />
 	    <has-kv k="seamark:type" modv="not" v="pipeline_submarine" />
-	    <bbox-query s="35.00" w="-5.00" n="45.00" e="18.00"/>
+	    <bbox-query s="SS" w="WW" n="NN" e="EE"/>
 	  </query>-->
   </union>
   <union>
